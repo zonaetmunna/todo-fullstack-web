@@ -4,7 +4,7 @@ import { todoSlice } from "./slices/todoSlice";
 
 
 const rootReducer = combineReducers({
-  todos:todoSlice,
+  todos:todoSlice.reducer,
   // visibilityFilter
 });
 export default rootReducer;
